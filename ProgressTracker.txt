@@ -1,0 +1,3 @@
+01-11-21:
+    ->implemented inputting of string and printing important info in a output.txt using C file handling.
+    ->this .txt file will then be used as input in future verilog programs.
