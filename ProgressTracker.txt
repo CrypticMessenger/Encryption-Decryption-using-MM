@@ -1,3 +1,8 @@
 01-11-21:
     ->implemented inputting of string and printing important info in a output.txt using C file handling.
     ->this .txt file will then be used as input in future verilog programs.
+
+05-11-21:
+    -> read and learned about using file handling to extract inputs.
+    ->implemented storage in 2d matrix using File handling in verilog.
+    ->defined length of target_matrix.

@@ -29,7 +29,11 @@ int main(){
         ch[counter]=' ';
         counter++;
     }
-    for(int i =0 ; i< counter ; i++){
+
+    for(int i=0; i < counter ; i++){
+        fprintf(wptr,"%d\n",ch[i]);
+    }
+    /*for(int i =0 ; i< counter ; i++){
         fprintf(wptr,"%d",ch[i]);
         if(i!=(counter/2 - 1)){
             fprintf(wptr," ");
@@ -37,7 +41,8 @@ int main(){
         else{
             fprintf(wptr,"\n");
         }
-    }
+    }*/
+    
 
     fclose(fptr);
     fclose(wptr);
