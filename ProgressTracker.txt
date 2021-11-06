@@ -6,3 +6,8 @@
     -> read and learned about using file handling to extract inputs.
     ->implemented storage in 2d matrix using File handling in verilog.
     ->defined length of target_matrix.
+
+06-11-21:
+    ->TODO: try making a module for MM.
+    -> started implementing multiplication of inverse with encrypted matrix.
+    -> implemented password imput using file handling in verilog.

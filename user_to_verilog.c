@@ -6,7 +6,7 @@ int main(){
     FILE *fptr;
     char ch[1000];
     char c;
-    fptr = fopen("./input.txt", "r");
+    fptr = fopen("./inputstring.txt", "r");
     
     FILE *wptr;
     wptr = fopen("./output.txt","w");
