@@ -15,8 +15,21 @@ Module input and outputs:
           : password.txt --> contains a (2*2) password matrix entered by user.
     output : Decryptedmessage.txt --> 
 
+Module Hierarchy:
+
+1. inputstring.txt containing the string entered by the user is converted into the ascii codes by the user_to_verilog.c 
+   and written in output.txt
+2. This output.txt is taken as a input by Encrypter.v and multiplied with the inputkey matrix and stored in
+   encryptedmatrix.txt.
+3. Then password enterd by user in password.txt is used to decrypt encryptedmatrix to obtain the original
+   message.
+
+Refer to ReadMe.md for the Hierarchical flow chart.
+
+Github repo link : https://github.com/CrypticMessenger/CS203-Project.git
 
 important Notes:
     -> Encrypter.v can encrypt upto 2000 characters in a single go, we are looking to make this limit dynamic (if possible).
        Thus, the text in inputstring.txt should not exceed 2000 characters.
     -> inputkey.txt should have a 2*2 matrix of integers, falling in the range 1 to 100 inclusive.
+
