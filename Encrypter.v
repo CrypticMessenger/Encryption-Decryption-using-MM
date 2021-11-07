@@ -11,8 +11,8 @@ module Encrpter();
     reg [14:0] encrypted_matrix[0:1][0:1000];
 
     initial begin
-        f_ptr = $fopen("output.txt","r");
-        f_ptr1 = $fopen("inputkey.txt","r");
+        f_ptr = $fopen("./text_files/output.txt","r");
+        f_ptr1 = $fopen("./text_files/inputkey.txt","r");
         
         while(!$feof(f_ptr) && i!=1) begin
             c=$fscanf(f_ptr,"%d",len);
@@ -48,7 +48,7 @@ module Encrpter();
     
     // Matrix Multiplication
     initial begin
-        w_ptr = $fopen("encryptedmatrix.txt","w");
+        w_ptr = $fopen("./text_files/encryptedmatrix.txt","w");
         $fdisplay(w_ptr,"%0d",len);
         for(integer i = 0 ; i < 2 ; i = i+1 ) begin
             for(integer k = 0 ; k < len/2; k = k+1) begin

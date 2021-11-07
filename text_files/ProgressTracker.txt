@@ -11,3 +11,7 @@
     ->TODO: try making a module for MM.
     -> started implementing multiplication of inverse with encrypted matrix.
     -> implemented password imput using file handling in verilog.
+
+07-11-21:
+    -> Made a ReadMe.md file to show module hierarchy, and input-outputs.
+    -> Submitted project updates and .zip files.

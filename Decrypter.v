@@ -10,8 +10,8 @@ module Decrypter();
     integer count = 0;
 
     initial begin
-        f_ptr = $fopen("encryptedmatrix.txt","r");
-        f_ptr1 = $fopen("pwd.txt","r");
+        f_ptr = $fopen("./text_files/encryptedmatrix.txt","r");
+        f_ptr1 = $fopen("./text_files/password.txt","r");
         while(!$feof(f_ptr) && i!=1) begin
             c=$fscanf(f_ptr,"%d",len);
             //$fdisplay(w_ptr,"%0d",len); // add 0 infront of d : results in left allignment of result
@@ -25,20 +25,7 @@ module Decrypter();
                 $display("encrypted_matrix[%0d][%0d] = %d", i, j, encrypted_matrix[i][j]);
             end
         end
-        
-        /*
-        for(integer i =0 ;i < 2 ; i=i+1) begin
-            for(integer j =0 ; j < 2 ; j = j+1) begin
-                c=$fscanf(f_ptr1,"%d",temp);
-                temp = (i+j)%2==0? temp : (-temp);
 
-                $display("%0d",temp );
-                inverse[1-i][1-j]=(temp);
-                $display("inverse [%0d][%0d]: %0d",1-i,1-j,inverse[1-i][1-j]);
-                // $display("inverse[%0d][%0d] = %0d", i, j, inverse[i][j]);
-            end
-        end
-        */
         
         for(integer i =0 ;i < 2 ; i=i+1) begin
             for(integer j =0 ; j < 2 ; j = j+1) begin

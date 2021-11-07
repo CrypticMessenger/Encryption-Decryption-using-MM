@@ -4,7 +4,7 @@
 
 int main(){
     FILE *fptr;
-    char ch[1000];
+    char ch[2000];
     char c;
     fptr = fopen("./inputstring.txt", "r");
     

@@ -1,0 +1,22 @@
+Encryption - Decryption using matrix multiplication:
+
+Module input and outputs:
+1.user_to_verilog.c
+    input : inputstring.txt --> for taking a text to be encrypted, as input.
+    output : output.txt --> a .txt file containing ascii codes of corresponding characters in inputstring.txt.
+
+2. Encrypter.v
+    input : inputkey.txt  --> For taking key from user
+          : output.txt    --> For taking ascii codes of string characters provided by user_to_verilog.c 
+    output : encryptedmatrix.txt --> contains the encrypted matrix, corresponding to the input  
+
+3. Decrypter.v
+    input : encryptedmatrix.txt
+          : password.txt --> contains a (2*2) password matrix entered by user.
+    output : Decryptedmessage.txt --> 
+
+
+important Notes:
+    -> Encrypter.v can encrypt upto 2000 characters in a single go, we are looking to make this limit dynamic (if possible).
+       Thus, the text in inputstring.txt should not exceed 2000 characters.
+    -> inputkey.txt should have a 2*2 matrix of integers, falling in the range 1 to 100 inclusive.
