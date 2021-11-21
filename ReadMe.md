@@ -13,8 +13,7 @@
 # Module Hierarchy
 
 <p align="center">
-  <img src="./text_files/Module_Hierarchy.jpg
-" />
+  <img src="./text_files/Module_Hierarchy.jpg" />
 </p>
 
 # Important Notes:
