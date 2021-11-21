@@ -8,8 +8,8 @@ int main(){
     //inputstring.txt :  a txt file which contains the message to be
     FILE *fptr;
     FILE *wptr;
-    wptr = fopen("./output.txt","w");
-    fptr = fopen("./inputstring.txt", "r");
+    wptr = fopen("./text_files/output.txt","w");
+    fptr = fopen("./text_files/inputstring.txt", "r");
 
     //storing the string in character array 'ch' ; word limit of the message to be transmitted is 2000 characters.
     char ch[2000];
