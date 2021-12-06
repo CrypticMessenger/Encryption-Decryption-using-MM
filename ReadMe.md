@@ -47,3 +47,11 @@
     -> Encrypter.v can encrypt upto 2000 characters in a single go, we are looking to make this limit dynamic (if possible).
        Thus, the text in inputstring.txt should not exceed 2000 characters.
     -> inputkey.txt should have a 2*2 matrix of integers, falling in the range 1 to 100 inclusive
+
+*Under the guidance of Prof. Neeraj Goyal*
+| Name      | Entry Number | 
+| :---        |    :----:   |  
+| Ankit Sharma      | 2020CSB1072       | 
+| Arshdeep Singh   | 2020CSB1074        | 
+
+
