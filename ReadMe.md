@@ -1,5 +1,8 @@
 # <center> **Encryption - Decryption using matrix multiplication:** </center>
-
+<p align = "center">
+<img src="https://img.shields.io/badge/Language-Verilog%20%26%20C-brightgreen">
+<img src="https://img.shields.io/badge/Course%20Project-Digital%20Logic%20Design%20-orange"><br>
+</p>
 ## *Instructions:*
    - ### *How to run:*
       1. Firstly write the message you want to send to the user in "inputstring.txt".
