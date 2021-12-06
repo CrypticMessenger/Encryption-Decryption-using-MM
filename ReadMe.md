@@ -1,4 +1,4 @@
-# **Encryption - Decryption using matrix multiplication:**
+# <center> **Encryption - Decryption using matrix multiplication:** </center>
 
 ## *Instructions:*
    - ### *How to run:*
