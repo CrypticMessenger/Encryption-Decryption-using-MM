@@ -52,7 +52,7 @@
        Thus, the text in inputstring.txt should not exceed 2000 characters.
     -> inputkey.txt should have a 2*2 matrix of integers, falling in the range 1 to 100 inclusive
 
-*Under the guidance of Prof. Neeraj Goyal*
+*Under the guidance of Prof. Neeraj Goel*
 | Name      | Entry Number | 
 | :---        |    :----:   |  
 | Ankit Sharma      | 2020CSB1072       | 
